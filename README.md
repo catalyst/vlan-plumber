@@ -91,20 +91,16 @@ interface gigabitethernet1/0/26
   switchport trunk allowed vlan add 123
 interface tengigabitethernet1/51
   switchport trunk allowed vlan add 123
-interface tengigabitethernet1/52
-  switchport trunk allowed vlan add 123
 interface gigabitethernet1/0/25
   switchport trunk allowed vlan add 123
 
 tor10-20-30
 -----------
+interface tengigabitethernet1/51
+  switchport trunk allowed vlan add 123
 interface gigabitethernet1/20
   switchport access vlan 123
   switchport mode access
   spanning-tree portfast
   description Insert description of VLAN here
-interface tengigabitethernet1/51
-  switchport trunk allowed vlan add 123
-interface tengigabitethernet1/52
-  switchport trunk allowed vlan add 123
 </pre>

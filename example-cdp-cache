@@ -10,10 +10,6 @@ tor10-20-30#show cdp ne d | inc (---|e ID|Port|Platform)
 Device ID: core40-50-60
 Platform: cisco WS-C4948E,  Capabilities: Router Switch IGMP
 Interface: TenGigabitEthernet1/51,  Port ID (outgoing port): TenGigabitEthernet1/51
--------------------------
-Device ID: core40-50-60
-Platform: cisco WS-C4948E,  Capabilities: Router Switch IGMP
-Interface: TenGigabitEthernet1/52,  Port ID (outgoing port): TenGigabitEthernet1/52
 tor10-20-30#exit
 Connection to tor10-20-30 closed.
 core40-50-60
@@ -28,11 +24,6 @@ core40-50-60#show cdp ne d | inc (---|e ID|Port|Platform)
 Device ID: tor10-20-30
 Platform: cisco WS-C4948E,  Capabilities: Router Switch IGMP
 Interface: TenGigabitEthernet1/51,  Port ID (outgoing port): TenGigabitEthernet1/51
--------------------------
-Device ID: tor10-20-30
-Platform: cisco WS-C4948E,  Capabilities: Router Switch IGMP
-Interface: TenGigabitEthernet1/52,  Port ID (outgoing port): TenGigabitEthernet1/52
--------------------------
 Device ID: colo-edge-firewall1
 Platform: Ubuntu 14.04.4 LTS Linux x86_64,  Capabilities: Router Trans-Bridge
 Interface: GigabitEthernet1/0/25,  Port ID (outgoing port): eth0
