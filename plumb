@@ -144,7 +144,7 @@ iface {0} inet static
                 from_platform = "cisco"
 
             if ',' in to_list:
-                to_device, to_port, to_tagged, to_platform = from_list.split(',')
+                to_device, to_port, to_tagged, to_platform = to_list.split(',')
             else:
                 to_device = to_list
                 to_port = ""
