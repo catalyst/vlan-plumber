@@ -2,7 +2,7 @@
 
 A distinctly sysadmin-grade script to generate switch configuration.
 
-## plumb
+## Usage
 
 <pre>
 usage: plumb [-h] --from FROM_LIST --to TO_LIST --vlan VLAN [--cdp-cache PATH]
